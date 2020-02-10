@@ -1,5 +1,6 @@
 姓名：汪聪
-
+性别：男
+年龄：28
 email：pagewang0@gmail.com
 
 ## 教育经历
