@@ -63,20 +63,20 @@ db有mysql和redis，持久化数据使用sequelize ORM来操作数据库。
 前端开发。react+flux。
 
 ### 长者热线
-php开发，ERP系统，php+mysql。
+php开发，ERP系统，采用php+mysql，期间优化过mysql查询。
 
 ### 技能
 #### 后端
-- node.js python(略懂) php(边查也还能看)
+- node.js python(略懂)
 - redis sql语句(mysql/pg) mongodb
-- OpenResty/nginx(配下域名 负载均衡啥的) docker。
+- OpenResty/nginx docker。
 
 #### 前端
 - JavaScript css react
 
 #### 测试
-- ava nock sinonjs proxyquire
+- ava nock sinonjs proxyquire nyc
 - protractor
 
 #### 其他
-- git markdown eslint
+- git markdown eslint jenkins
