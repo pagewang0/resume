@@ -1,83 +1,75 @@
-## 汪聪
-
+## 联系方式
 Email: cGFnZXdhbmcwQGdtYWlsLmNvbQ==(base64)
+微信: pagewang_cn
+
+## 简介
+- 熟悉后端开发，使用node.js编写resful API, 使用过Mongodb(mongoose)、Redis, 手写过Sql(接触过Mysql、SQL Server、PostgreSQL)，也用过ORM(Sequelize)。
+- 熟悉前端开发，编写过后台管理系统，能操作DOM、BOM。
+- 编写测试用例(行为测试和单元测试)，部署和编写过gitlab CI/CD以及dockerfile, Docker Compose。
+- 对web安全(xss, csrf)、sql注入有一定的了解。
+
+## 教育经历
+湖北职业技术学院 大专 2010.9 - 2013.6
 
 ## 工作经验
 
-### 衍界资讯（远程）2020.5 - 2020.7
-- 负责后端开发，项目结构划分（前后端分离，nginx网关控制，静态文件cdn）和项目部署（dev：前海云，production：阿里云）。
-- 百万级别数据的查询优化(mysql)，从技术与业务层面避免查询过慢。
-- 邮件通知与定时任务。
-- 上传文件与Excel解析。
-- 在公司简报功能中涉及逻辑分支过多（20种）的情况下，使用mock数据的思路来覆盖每个逻辑分支。
-- 日志(文件级)留痕与故障排查。
+### 梦猷科技 2022.5 - 2022.8 remote
+- 负责电商项目[masion waster 2.0](http://masionwester.vip) 后端开发，涉及退款(支付宝/微信)，退货退款流程修改。
+- 负责NFT音乐网站项目，后端开发，涉及直播(声网/agora)，爬虫(opensea), websocket开发。
+
+### 部恩科技 2021.3 - 2022.5
+- 负责社区项目node.js开发，基于开源项目rocket.chat做二次开发。
+- 接入OAuth服务。
+- 接入聊天机器人(hubot)。
+- 搭建gitlab CI/CD跑自动化测试和部署(build、test、deploy)。
+- 搭建kibana用于查看log。
+- 编写shell脚本用于项目部署。
+- 使用vue构建后台管理页面。
+- 在项目修改代码编译运行比较费时的情况下，使用单元测试的方式来运行部分代码提升编译运行速度，提高开发效率。
 
 ### 隆康科技 2019.9 - 2020.3
-- IM服务端开发，基于socket.io开发的群聊服务。
-- 为公司内其他服务提供消息推送，客户端（Web、Android、IOS、Windows）各平台提供接入服务和协调连接策略问题
-- 排查项目中存在的socket对象内存泄露问题
-- 压力测试，由于对项目的性能与稳定性有一定要求，在功能完备后，对项目进行压力测试，编写压测脚本，模拟多用户情况下的cpu、内存情况（基于并发100，单个节点用户连接数与消息数承载在3000左右）。
-- 日志(文件级)留痕与故障排查。
+- node.js后端开发，使用websocket协议，基于socket.io。
+- 为其他服务提供消息推送，为客户端（Web、Android、IOS、Windows）提供接入服务和协调连接策略。
+- 排查项目中的内存泄露问题。
+- 压力测试，需求上对项目性能与稳定性有一定要求，在功能完备后，对项目进行压力测试，编写压测脚本，模拟多用户情况下的cpu、内存情况。
 
 ### 德科信息 2017.12 - 2018.11
-- 主要负责理财网店后端开发，工作涉及：API服务、定时任务、批处理脚本、测试用例，网关逻辑。
-- 期间解决过内存泄露问题，主要涉及node特定版本中的http parse泄露，以及Mongoose特定版本的问题。
-- 日志(kibana/自研系统)留痕与故障排查。
-
-### 光音网络 2015.5 - 2016.6
-- 数据统计业务的前端开发，使用React+Flux来实现后台管理页面。
-- 广告业务的前后端开发，前端涉及淘宝客页面的编写，后端主要是存储各类上报数据。
-- 解决过客户端时间不准问题，基于服务端时间使用相对值来进行校对。
+- 主要负责理财网店后端开发。
+- 涉及开店审核、货架、模拟组合、性能优化、定时任务、消息推送。
 
 ## 项目经验
 
-### ESG舆情预警（衍界资讯）
-- 使用koa框架，数据库使用mysql，ORM使用sequelize，定时任务采用node-schedule。
-- 使用的cookie-session来做用户身份标识。
-- eslint规范代码风格。
-- pm2做守护进程。
-- number-precision来做计算，避免数据小数位的精度问题。
+### masion wester
+- 支付宝/微信退款问题的修复。
+- 订单退款流程。
 
-### IM服务（隆康科技）
-- 使用socket.io来处理socket通信。
-- koa对外提供http请求服务（主要是跨服务通信以及管理端控制）。
+### 音乐类NFT项目
+- 使用puppeteer爬取opensea的音乐类NFT数据。
+- 接入声网(agora)直播功能。
+- websocket聊天(1对1)功能。
+
+
+### steampy社区
+- 项目使用meteor.js框架，存储使用mongodb。
+- 在聊天机器人方面，扩展了人工客服功能。
+- 扩展了一些新功能模块，例如自定义表情管理、帖子(图文)、帖子二级回复、消息提醒、权限角色管理等。
+- 使用activeMQ来和公司其他后端服务做通信：比如抽奖活动。
+
+### ESG舆情预警
+- 使用koa框架，数据库使用mysql
+- 功能涉及用户、舆情消息、股票筛选、投资组合、消息推送、数据报告。
+- 解决sql中的慢查询问题。
+
+### IM群聊服务
+- 使用socket.io来构建websocket通信。
+- koa对外提供http服务（主要是跨服务通信以及管理端控制）。
 - 数据存储使用redis，mysql数据只读。
-- 多节点使用socket.io-redis。
-- 测试工具：mocha、chai、proxyquire、sinon、nock。测试覆盖率：nyc。
-- pm2做守护进程。
-- 部署使用jenkins。
+- 使用socket.io-redis来跨服务广播通信。
 
-### 理财网店（德科信息）
-- 项目采用微服务结构，主体是express(Promise)，部分迁出的新服务采用koa(async/await)。
-- 数据库使用mongodb，读写分离，redis做缓存。
-- 网关使用OpenResty，用于单点登陆、反向代理。
-- 使用redis做消息队列来离线处理消息推送服务。
-- 测试使用ava和nock。
-- 编写Dockerfile和使用docker容器部署。
-- 使用Gitlab来做CI/CD。
+### 理财网店
+- 项目结构是微服务，数据库使用mongodb读写分离，redis做缓存。
+- 网关使用OpenResty。
+- 使用redis做消息队列来消减消息推送给db带来的压力峰值。
 
-### 淘宝客（光音网络）
-- 服务端使用express+mongodb.
-- 前端使用bootstrap+jquery。
-- 定时拉取商品信息。
-- 编写dockerfile和使用docker部署.
-
-## 工作以外
-
-### 腾讯滑动验证码破解
+### 滑动验证码破解
 - 使用python中的selenium和openCV图形处理，针对背景图和滑动图做二值化，然后反转滑动图的色值，最后做像素匹配，得到滑动图与背景图阴影的像素位置。
-- 代码在Github上：https://github.com/pagewang0/qq_helper
-
-### 手游自动登录脚本（android）
-- 使用uiautomator来操作app启动、退出，实现批量登录功能
-- 在此期间还尝试反编译手游的部分java代码，涉及登录逻辑。
-- 尝试过java到smali语言转换，以及重新打包app。
-
-## 总结
-- 熟悉后端开发，使用node.js编写resfulAPI, 使用过Mongodb、Redis, 手写过Sql(Mysql、SQL Server、PostgreSQL)，也用过ORM框架（Sequelize/Mongoose）。
-- 熟悉前端开发，编写过后台管理系统，能熟练操作DOM、BOM，曾使用过React+Flux写过spa，了解过Angular。
-- 代码规范方面，接触过eslint, 工作中使用过git flow和code reivew(通过gitlab merge request)。
-- 编写测试用例(行为测试和单元测试)，接触过gitlab CI/CD 以及docker。
-- 略懂python，写过爬虫（主要是python工具库比较多且易用）。
-- 使用Mac开发环境，在外网部署过服务。配过Nginx代理、域名解析。
-- 对web安全(xss, csrf)、sql注入有所了解。
