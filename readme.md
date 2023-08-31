@@ -1,6 +1,5 @@
 ## 联系方式
 Email: cGFnZXdhbmcwQGdtYWlsLmNvbQ==(base64)
-微信: pagewang_cn
 
 ## 简介
 - 熟悉后端开发，使用node.js编写resful API, 使用过Mongodb(mongoose)、Redis, 手写过Sql(接触过Mysql、SQL Server、PostgreSQL)，也用过ORM(Sequelize)。
